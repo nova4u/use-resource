@@ -9,10 +9,15 @@
   "homepage": "https://github.com/nova4u/use-resource",
   "keywords": [
     "react",
+    "data fetching",
+    "caching",
+    "suspense",
+    "revalidation",
+    "prefetching",
     "resource",
     "api"
   ],
-  "description": "A library for using resource with selectors",
+  "description": "A lightweight React library for efficient data fetching and caching with built-in Suspense support, preventing unnecessary re-renders and network requests.",
   "exports": {
     ".": {
       "import": "./dist/index.js",
