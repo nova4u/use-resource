@@ -1,6 +1,6 @@
 import { ErrorInfo, Suspense, useState, Activity } from 'react';
 import { ErrorBoundary, FallbackProps } from 'react-error-boundary';
-import { mutate, useResource } from '../../src';
+import { useResource, mutate } from '@dmrk/use-resource';
 import './app.css';
 
 const logError = (error: Error, info: ErrorInfo) => {
