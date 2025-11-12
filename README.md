@@ -56,7 +56,7 @@ pnpm add @dmrk/use-resource
 ### With Suspense (Recommended)
 
 ```tsx
-import useResource from '@dmrk/use-resource';
+import { useResource } from '@dmrk/use-resource';
 
 function User({ userId }: { userId: string }) {
   const { data } = useResource(`user-${userId}`, () =>
